@@ -9,3 +9,32 @@
     align-items: center;
     display: flex; 
 }
+
+.botones{
+    width: 33%;
+    height: 400px;
+    background-color: grey;
+    float: left;
+}
+
+.boton{
+    margin-left: -30px;
+    background-color: rgb(57, 57, 57);
+    height: 55px;
+    margin-top: 10px;
+    width: 185px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    font-size: 25px;
+    border-radius: 10PX;       
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+}
+
+.boton:hover{
+    background-color: blue;
+}
