@@ -248,3 +248,8 @@ a {
 .hList > * + * {
     margin-left: 0;
 }
+
+.footer{
+    background-color: #000000;
+    height: 150px;
+}
