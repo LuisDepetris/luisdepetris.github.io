@@ -1,3 +1,49 @@
+.head{
+    height: 150px;
+    width: 100%;
+    background-color: #000000;
+}
+
+.nombre_logo{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: lighter;
+    display:flex;
+    justify-content:right;
+
+    margin-top: 25px;
+    margin-right: 200px;
+}
+.ape_logo{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    display:flex;
+    justify-content:right;
+    align-items: center;
+    margin-top: -80px;
+    margin-right: 200px;
+}
+.titulo_logo{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    display:flex;
+    justify-content:right;
+    align-items: center;
+    margin-top: -70px;
+    margin-right: 200px;
+}
+.menu-icon {
+    width: 30px;
+    height: 4px;
+    background-color: #ffffff; /* Color de las líneas */
+    margin: 6px 0; /* Espacio entre las líneas */
+}
+
 .div_header_menu{
     height: 100px;
     width: 100%;
@@ -10,20 +56,33 @@
     display: flex; 
 }
 
+.contenedor{
+
+    background-image: url('background2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 800px;
+    margin-top: -20px;
+    justify-content: right;
+
+}
 .contenidos{
-    width: 100%;
-    background-color: rgb(87, 157, 248);
-    float: left;
+    width: 50%;
+    height: 100%;
+    float: right;
 }
 
 .foto{
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     align-content: center;
     display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
+
 
 .titulos{
     margin-left: 15px;
@@ -38,7 +97,7 @@
     margin-left: 20%;
     margin-right: 20%;
     font-family: Arial, Helvetica, sans-serif;
-    color:rgb(0, 0, 0); 
+    color:rgb(255, 255, 255); 
     line-height: 180%;
 }
 
